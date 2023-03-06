@@ -1,6 +1,5 @@
+import '@/app/globals.css';
 import {Red_Hat_Mono} from 'next/font/google';
-const font = Red_Hat_Mono({subsets: ['latin']});
-import './globals.css';
 
 export const metadata = {
   title: 'Joseph Chow',
@@ -56,6 +55,8 @@ export const metadata = {
     images: ['https://josephchow.dev/icon-512.png'],
   },
 };
+
+const font = Red_Hat_Mono({subsets: ['latin']});
 
 export default function RootLayout({children}: {children: React.ReactNode}) {
   return (
