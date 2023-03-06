@@ -1,3 +1,5 @@
+import {Red_Hat_Mono} from 'next/font/google';
+const font = Red_Hat_Mono({subsets: ['latin']});
 import './globals.css';
 
 export const metadata = {
@@ -58,7 +60,7 @@ export const metadata = {
 export default function RootLayout({children}: {children: React.ReactNode}) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body className={font.className}>{children}</body>
     </html>
   );
 }

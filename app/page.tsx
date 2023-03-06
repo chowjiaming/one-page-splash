@@ -1,12 +1,12 @@
-import {Red_Hat_Mono} from 'next/font/google';
-// import styles from './page.module.css';
-
-const inter = Red_Hat_Mono({subsets: ['latin']});
+import styles from './page.module.css';
 
 export default function Page() {
   return (
-    <main className={inter.className}>
-      <h1>Hello World!!</h1>
+    <main className={styles.main} role="main">
+      <section className={styles.content}>
+        <h1>Hello There.</h1>
+        <h2>My name is Joseph Chow.</h2>
+      </section>
     </main>
   );
 }
