@@ -1,4 +1,5 @@
-import Link from 'next/link';
+import External from '@/components/External';
+import Flag from '@/components/Flag';
 import styles from '@/app/page.module.css';
 
 export default function Page() {
@@ -8,67 +9,54 @@ export default function Page() {
         <h1 className={styles.heading}>Hello&#46;</h1>
         <h2 className={styles.subheading}>My name is Joseph Chow&#46;</h2>
         <p className={styles.text}>
-          I&#39;m a front end developer and I absolutely{' '}
-          <strong className={styles.strong}>love</strong> building for the
-          web&#46; From something as simple as a single HTML file &#8212; all
-          the way to large{' '}
-          <Link className={styles.link} href="https://nextjs.org/">
-            Next&#46;js
-          </Link>{' '}
-          applications&#46;
+          I <strong className={styles.strong}>love</strong> developing for the
+          web&#44; from crafting a simple HTML file to architecting complex{' '}
+          <External href="https://nextjs.org/">Next&#46;js</External>{' '}
+          applications&#46; The web offers a unique canvas for me to express my
+          creativity and technical skills&#59; crafting captivating user
+          interfaces is a source of immense gratification for me&#46;
         </p>
         <p className={styles.text}>
-          A problem solver at heart&#44; I savor turning complex UI/UX problems
-          into accessible solutions using{' '}
-          <Link className={styles.link} href="https://reactjs.org/">
-            React
-          </Link>
-          &#39;s declarative and component-based approach&#46; It is most
-          satisfying for me creating an impression on an empty canvas&#44; to
-          make a mark on an empty page&#46;
+          As an ardent problem solver at heart&#44; I savor the challenge of
+          transforming intricate UI/UX issues into accessible solutions that
+          adhere to <External href="https://reactjs.org/">React</External>
+          &#39;s best practices and SOLID principles&#46; There is no greater
+          satisfaction for me than crafting an impression on a blank canvas or
+          leaving a mark on a blank page&#46;
         </p>
         <p className={styles.text}>
-          When I&#39;m not coding&#44; I dote on studying Mandarin&#44;
-          Cantonese&#44; Vietnamese&#44; and French&#46;
+          When I&#39;m not coding&#44; I dote on studying Mandarin{' '}
+          <Flag src="https://flagcdn.com/cn.svg" alt="Chinese Flag" />
+          &#44; Cantonese{' '}
+          <Flag src="https://flagcdn.com/hk.svg" alt="Hong Kong Flag" />
+          &#44; Vietnamese{' '}
+          <Flag src="https://flagcdn.com/vn.svg" alt="Vietnamese Flag" />
+          &#44; and French{' '}
+          <Flag src="https://flagcdn.com/fr.svg" alt="French Flag" />
+          &#46;
         </p>
         <p className={styles.text}>
           I am currently learning about{' '}
-          <Link
-            className={styles.link}
-            href="https://preactjs.com/guide/v10/signals/"
-          >
+          <External href="https://preactjs.com/guide/v10/signals/">
             Signals
-          </Link>
-          &#44;{' '}
-          <Link className={styles.link} href="https://trpc.io/">
-            tRPC
-          </Link>
-          &#44; and{' '}
-          <Link className={styles.link} href="https://threejs.org/">
-            Three.js
-          </Link>
+          </External>
+          &#44; <External href="https://trpc.io/">tRPC</External>
+          &#44; and <External href="https://threejs.org/">Three.js</External>
           &#46;
         </p>
         <p className={styles.text}>
           Don&#39;t be a stranger&#44; reach out and follow me on{' '}
-          <Link className={styles.link} href="https://github.com/chowjiaming">
-            GitHub
-          </Link>
+          <External href="https://github.com/chowjiaming">GitHub</External>
           &#44;{' '}
-          <Link
-            className={styles.link}
-            href="https://www.linkedin.com/in/josephchow/"
-          >
+          <External href="https://www.linkedin.com/in/josephchow/">
             LinkedIn
-          </Link>
+          </External>
           &#44;{' '}
-          <Link className={styles.link} href="https://twitter.com/chowjiaming">
-            Twitter
-          </Link>
+          <External href="https://twitter.com/chowjiaming">Twitter</External>
           &#44; or email me at{' '}
-          <Link className={styles.link} href="mailto:contact@josephchow.dev">
+          <External href="mailto:contact@josephchow.dev">
             contact@josephchow.dev
-          </Link>
+          </External>
           &#46;
         </p>
       </section>

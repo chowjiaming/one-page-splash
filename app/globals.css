@@ -1,4 +1,7 @@
-/* https://piccalil.li/blog/a-modern-css-reset */
+:root {
+  --highlight: 46, 196, 182, 0.5;
+  --love: 217, 4, 41, 0.7;
+}
 
 /* Box sizing rules */
 *,
@@ -81,3 +84,22 @@ select {
     color-scheme: dark;
   }
 } */
+
+::-moz-selection {
+  background-color: rgba(var(--highlight));
+}
+::selection {
+  background-color: rgba(var(--highlight));
+}
+::-moz-selection {
+  background-color: rgba(var(--highlight));
+}
+::-o-selection {
+  backgroeund-color: rgba(var(--highlight));
+}
+::-ms-selection {
+  background-color: rgba(var(--highlight));
+}
+::-webkit-selection {
+  background-color: rgba(var(--highlight));
+}
