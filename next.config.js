@@ -3,6 +3,12 @@ const nextConfig = {
   experimental: {
     appDir: true,
   },
+  rewrites: () => [
+    {
+      source: '/:path*',
+      destination: '/',
+    },
+  ],
 };
 
 module.exports = nextConfig;

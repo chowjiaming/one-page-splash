@@ -1,4 +1,4 @@
-import '@/app/globals.css';
+import '@/styles/globals.css';
 import {Red_Hat_Mono} from 'next/font/google';
 
 export const metadata = {
@@ -8,19 +8,6 @@ export const metadata = {
   keywords: ['Next.js', 'React', 'TypeScript'],
   authors: [{name: 'Joseph Chow', url: 'https://github.com/chowjiaming'}],
   creator: 'Joseph Chow',
-  robots: {
-    index: false,
-    follow: true,
-    nocache: true,
-    googleBot: {
-      index: true,
-      follow: false,
-      noimageindex: true,
-      'max-video-preview': -1,
-      'max-image-preview': 'large',
-      'max-snippet': -1,
-    },
-  },
   openGraph: {
     title: 'Joseph Chow',
     description: 'Welcome to my website!',

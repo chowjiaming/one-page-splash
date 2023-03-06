@@ -10,6 +10,10 @@ export default function Flag({src, alt}: Props) {
   const [viewWidth, setViewWidth] = useState(0);
 
   useEffect(() => {
+    setViewWidth(window.innerWidth);
+  }, []);
+
+  useEffect(() => {
     function handleResize() {
       setViewWidth(window.innerWidth);
     }
@@ -23,8 +27,6 @@ export default function Flag({src, alt}: Props) {
     const height = width * (2 / 3);
     return {width, height};
   }, [viewWidth]);
-
-  console.log(flagDimensions);
 
   return (
     <Image
