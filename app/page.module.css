@@ -1,7 +1,7 @@
 .main {
   display: grid;
   grid-template-columns: 0.3fr 2.4fr 0.3fr;
-  grid-template-rows: 0.3fr 2.3fr 0.4fr;
+  grid-template-rows: 0.2fr 2.4fr 0.4fr;
   gap: 0px 0px;
   grid-auto-flow: row;
   grid-template-areas:
@@ -9,11 +9,13 @@
     'padding_left main_content padding_right'
     'padding_bottom padding_bottom padding_bottom';
   height: 100vh;
+  font-size: calc(1rem + 0.5vw);
 }
 
 @media screen and (min-width: 30rem) {
   .main {
     grid-template-columns: 0.3fr 2.2fr 0.5fr;
+    grid-template-rows: 0.3fr 2.4fr 0.3fr;
   }
 }
 
