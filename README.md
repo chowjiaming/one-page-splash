@@ -21,5 +21,3 @@
 	<a href="https://github.com/chowjiaming"><img src="./assets/icons/github.png" alt="GitHub"/></a>
 	<a href="https://linkedin.com/in/chowjiaming"><img src="./assets/icons/linkedin.png" alt="LinkedIn"/></a>
 </p>
-
-<details>
