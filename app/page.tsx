@@ -48,7 +48,7 @@ export default function Page() {
           Don&#39;t be a stranger&#44; reach out and follow me on{' '}
           <External href="https://github.com/chowjiaming">GitHub</External>
           &#44;{' '}
-          <External href="https://www.linkedin.com/in/josephchow/">
+          <External href="https://www.linkedin.com/in/chowjiaming/">
             LinkedIn
           </External>
           &#44;{' '}
