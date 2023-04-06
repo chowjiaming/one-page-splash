@@ -9,6 +9,7 @@
     "plugin:react/recommended",
     "plugin:react/jsx-runtime",
     "plugin:react-hooks/recommended",
+    "plugin:tailwindcss/recommended",
     "prettier",
     "next/core-web-vitals"
   ],
@@ -30,7 +31,7 @@
     "jsxPragma": null,
     "project": "./tsconfig.json"
   },
-  "plugins": ["@typescript-eslint", "react", "react-hooks"],
+  "plugins": ["@typescript-eslint", "react", "react-hooks", "tailwindcss"],
   "rules": {
     "linebreak-style": ["error", "unix"],
     "quotes": ["error", "single"],
@@ -48,6 +49,9 @@
   "settings": {
     "react": {
       "version": "detect"
+    },
+    "tailwindcss": {
+      "callees": ["cn"]
     }
   }
 }

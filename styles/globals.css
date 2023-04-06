@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 :root {
   --highlight: 46, 196, 182, 0.5;
   --love: 217, 4, 41, 0.7;
